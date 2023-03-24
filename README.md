@@ -58,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-There is no live demo available.
+For the lastest stable and approved and reviewed version, visit [Lordksix's Portfolio](https://lordksix.github.io/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
