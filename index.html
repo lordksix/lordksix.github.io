@@ -7,20 +7,33 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./static/base_style.css">
-  <title>Portafolio</title>
+  <link rel="stylesheet" href="./style/base_style.css">
+  <script src="./scripts/projectsModal.js" defer></script>
+  <script src="./scripts/ScrollEffects.js" defer></script>
+  <script src="./scripts/menuModal.js" defer></script>
+  <script src="./scripts/formValidation.js" defer></script>
+  <title>Portfolio Template</title>
 </head>
 <body> 
-  <header>
+  <header id="header">
     <nav class="nav-header">
-      <div class="logo">
-        <a href="#">My Logo</a>
+      <div class="logo modal-bg">
+        <a href="#intro">My Logo</a>
       </div>
-      <div class="menu"></div>
+      <ul class="nav-menu">
+        <input type="checkbox" id="menu_toggle" />
+        <label for="menu_toggle" class="menu_hamburger" aria-label="Menu Opener"></label>
+        <div class="menu">
+          <li id="close_menu">X</li>
+          <li><a href="#works">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </ul>
     </nav>
   </header>
-  <section class="intro info">
-    <h2 class="section-title">I'm Alexandra. Glad to see you!</h2>
+  <section class="intro info modal-bg" id="intro">
+    <h1 class="section-title">I'm Wladimir Paquel <br> Glad to see you!</h2>
     <p class="description">I'm a software developer! I can help you build a product, 
       feature or website Look through some of my work and experience! If you like what 
       you see and have a project you need coded, don't hesitate to contact me.
@@ -28,164 +41,121 @@
     <p class="makeconection">LET'S CONNECT</p>
     <div class="socialmedia-btn-container">
       <ul class="socialmedia-btn-row">
-        <li class="social-btn"><a href="https://twitter.com/"><i class="social-btn" id="btn-tw"></i></a></li>
-        <li class="social-btn"><a href="https://www.linkedin.com/"><i class="social-btn" id="btn-in"></i></a></li>
-        <li class="social-btn"><a href="#"><i class="social-btn" id="btn-m"></i></a></li>
-        <li class="social-btn"><a href="https://github.com/"><i class="social-btn" id="btn-gh"></i></a></li>
-        <li class="social-btn"><a href="#"><i class="social-btn" id="btn-pc"></i></a></li>
+        <li class="social-btn">
+          <a href="https://twitter.com/wapasquel"><img src="./images/twicon.svg" alt="Twitter Account" class="social-btn" id="btn-tw"></a>
+        </li>
+        <li class="social-btn">
+          <a href="https://www.linkedin.com/in/wladimir-pasquel-32b86b127/"><img src="./images/Linkedin-icon.svg" alt="LinkedIn Account" class="social-btn" id="btn-in"></a>
+        </li>
+        <li class="social-btn">
+          <a href="#"><img src="./images/micon.svg" alt="Medium Account" class="social-btn" id="btn-m"></a>
+        </li>
+        <li class="social-btn">
+          <a href="https://github.com/lordksix/"><img src="./images/githubicon.svg" alt="GitHub Account" class="social-btn" id="btn-gh"></a>
+        </li>
+        <li class="social-btn">
+          <a href="#"><img src="./images/peaceicon.svg" alt="Wellfound Account" class="social-btn" id="btn-pc"></a>
+        </li>
      </ul>
     </div>
   </section>
-  <section class="works">
-    <div class="work">
-      <img src="./images/topic-porta.svg" alt="Snapshot of the Tonic Project, 2015" class="work-image">
-      <div class="work-card">
-        <h3 class="work-title">Tonic</h3>
-        <ul class="work-cat">
-          <li class="cat-title">CANOPY</li>
-          <li><span class="division"></span></li>
-          <li class="cat-descrip">Back End Dev</li>
-          <li><span class="division"></span></li>
-          <li class="cat-descrip">2015</li>
+  <section class="about-contact modal-bg">
+    <section class="about info scroll" id="about">
+      <div class="contact">
+        <h2 class="section-title">About Myself</h2>
+        <p class="description">I'm a software developer! I can help you build a product, 
+          feature or website Look through some of my work and experience! If you like what 
+          you see and have a project you need coded, don't hesitate to contact me.
+        </p>
+        <p class="makeconection">LET'S CONNECT</p>
+        <div class="socialmedia-btn-container">
+          <ul class="socialmedia-btn-row">
+            <li class="social-btn">
+              <a href="https://twitter.com/wapasquel"><img src="./images/twicon.svg" alt="Twitter Account" class="social-btn" id="btn-tw"></a>
+            </li>
+            <li class="social-btn">
+              <a href="https://www.linkedin.com/in/wladimir-pasquel-32b86b127/"><img src="./images/Linkedin-icon.svg" alt="LinkedIn Account" class="social-btn" id="btn-in"></a>
+            </li>
+            <li class="social-btn">
+              <a href="https://medium.com/"><img src="./images/micon.svg" alt="Medium Account" class="social-btn" id="btn-m"></a>
+            </li>
+            <li class="social-btn">
+              <a href="https://github.com/lordksix/"><img src="./images/githubicon.svg" alt="GitHub Account" class="social-btn" id="btn-gh"></a>
+            </li>
+            <li class="social-btn">
+              <a href="https://wellfound.com/"><img src="./images/peaceicon.svg" alt="Wellfound Account" class="social-btn" id="btn-pc"></a>
+            </li>
         </ul>
-        <p class="work-descrip">A daily selection of privately personalized reads; no accounts 
-          or sign-ups required.</p>
-        <ul class="work-langs">
-          <li class="work-lang"><span>HTML</span></li>
-          <li class="work-lang"><span>CSS</span></li>
-          <li class="work-lang"><span>JavaScript</span></li>
-        </ul>
-        <div class="work-btns">
-          <button type="button" class="work-btn"><span>See project</span></button>
         </div>
+        <button type="button" class="work-btn">Get my resume</button>
       </div>
-    </div>
-    <div class="work">
-      <img src="./images/mul-stories-porta.svg" alt="Snapshot of the Multi Post Stories Project, 2015" class="work-image">
-      <div class="work-card">
-        <h3 class="work-title">Multi-Post Stories</h3>
-        <ul class="work-cat">
-          <li class="cat-title">CANOPY</li>
-          <li><span class="division"></span></li>
-          <li class="cat-descrip">Back End Dev</li>
-          <li><span class="division"></span></li>
-          <li class="cat-descrip">2015</li>
-        </ul>
-        <p class="work-descrip">A daily selection of privately personalized reads; no accounts 
-          or sign-ups required.</p>
-        <ul class="work-langs">
-          <li class="work-lang"><span>HTML</span></li>
-          <li class="work-lang"><span>CSS</span></li>
-          <li class="work-lang"><span>JavaScript</span></li>
-        </ul>
-        <div class="work-btns">
-          <button type="button" class="work-btn"><span>See project</span></button>
-        </div>
-      </div>      
-    </div>
-    <div class="work">
-      <img src="./images/topic-porta.svg" alt="Snapshot of the Tonic Project, 2015" class="work-image">
-      <div class="work-card">
-        <h3 class="work-title">Tonic</h3>
-        <ul class="work-cat">
-          <li class="cat-title">CANOPY</li>
-          <li><span class="division"></span></li>
-          <li class="cat-descrip">Back End Dev</li>
-          <li><span class="division"></span></li>
-          <li class="cat-descrip">2015</li>
-        </ul>
-        <p class="work-descrip">A daily selection of privately personalized reads; no accounts 
-          or sign-ups required.</p>
-        <ul class="work-langs">
-          <li class="work-lang"><span>HTML</span></li>
-          <li class="work-lang"><span>CSS</span></li>
-          <li class="work-lang"><span>JavaScript</span></li>
-        </ul>
-        <div class="work-btns">
-          <button type="button" class="work-btn"><span>See project</span></button>
-        </div>    
-      </div>
-    </div>
-    <div class="work">
-      <img src="./images/mul-stories-porta.svg" alt="Snapshot of the Multi Post Stories Project, 2015" class="work-image">
-      <div class="work-card">
-        <h3 class="work-title">Multi-Post Stories</h3>
-        <ul class="work-cat">
-          <li class="cat-title">CANOPY</li>
-          <li><span class="division"></span></li>
-          <li class="cat-descrip">Back End Dev</li>
-          <li><span class="division"></span></li>
-          <li class="cat-descrip">2015</li>
-        </ul>
-        <p class="work-descrip">A daily selection of privately personalized reads; no accounts 
-          or sign-ups required.</p>
-        <ul class="work-langs">
-          <li class="work-lang"><span>HTML</span></li>
-          <li class="work-lang"><span>CSS</span></li>
-          <li class="work-lang"><span>JavaScript</span></li>
-        </ul>
-        <div class="work-btns">
-          <button type="button" class="work-btn"><span>See project</span></button>
-        </div>
-      </div>       
-    </div>
-  </section>
-  <section class="about-contact">
-    <section class="contact info">
-      <h2 class="section-title">About Myself</h2>
-      <p class="description">I'm a software developer! I can help you build a product, 
-        feature or website Look through some of my work and experience! If you like what 
-        you see and have a project you need coded, don't hesitate to contact me.
-      </p>
-      <p class="makeconection">LET'S CONNECT</p>
-      <div class="socialmedia-btn-container">
-        <ul class="socialmedia-btn-row">
-          <li class="social-btn"><a href="https://github.com/"><i class="social-btn" id="btn-gh"></i></a></li>
-          <li class="social-btn"><a href="https://www.linkedin.com/"><i class="social-btn" id="btn-in"></i></a></li>
-          <li class="social-btn"><a href="#"><i class="social-btn" id="btn-m"></i></a></li>
-          <li class="social-btn"><a href="https://twitter.com/"><i class="social-btn" id="btn-tw"></i></a></li>
-          <li class="social-btn"><a href="#"><i class="social-btn" id="btn-pc"></i></a></li>
-       </ul>
-      </div>
-      <button type="button" class="work-btn">Get my resume</button>
       <ul class="skills">
-        <li><div class="skill skill-active"><span>Languages</span><span class="arrow-active arrow"></span></div>
+        <li>
+					<input type="checkbox" id="languages" class="menu-item-checkbox"/>
+          <label for="languages" class="skill"><span>Languages</span><img src="./images/arrow.svg" alt="Click to open languages" class="arrow"></label>
           <ul class="sub-skills">
-            <li><div class="sub-skill"><img src="images/js-icon.svg" alt="JavaScript Icon"></span><span>JavaScript</span></div></li>
-            <li><div class="sub-skill"><img src="images/html5-icon.svg" alt="HTML Icon"><span>HTML</span></div></li>
-            <li><div class="sub-skill"><img src="images/css-icon.svg" alt="CSS3 Icon"><span>CSS</span></div></li>
+            <li class="sub-skill"><img src="images/Python-logo-notext.svg" alt="Python Icon" class="sub-skill-img"><span>Python</span></li>
+            <li class="sub-skill"><img src="images/js-icon.svg" alt="JavaScript Icon" class="sub-skill-img"></span><span>JavaScript</span></li>
+            <li class="sub-skill"><img src="images/PHP-logo.svg" alt="PHP Icon" class="sub-skill-img"><span>PHP</span></li>
+            <li class="sub-skill"><img src="images/Java-Logo.svg" alt="Java Icon" class="sub-skill-img"><span>Java</span></li>
+            <li class="sub-skill"><img src="images/Ruby_logo.svg" alt="Ruby Icon" class="sub-skill-img"><span>Ruby</span></li>
+            <li class="sub-skill"><img src="images/html5-icon.svg" alt="HTML Icon" class="sub-skill-img"><span>HTML</span></li>
+            <li class="sub-skill"><img src="images/css-icon.svg" alt="CSS3 Icon" class="sub-skill-img"><span>CSS</span></li>
           </ul>
         </li>
-        <li><div class="skill"><span>Frameworks</span><span class="arrow"></span></div></li>
-        <li><div class="skill"><span>Skills</span><span class="arrow"></span></div></li>
+        <li>
+          <input type="checkbox" id="frameworks" class="menu-item-checkbox"/>
+          <label for="frameworks" class="skill">
+            <span>Frameworks</span>
+            <img src="./images/arrow.svg" alt="Click to open frameworks" class="arrow">
+          </label>
+          <ul class="sub-skills">
+            <li class="sub-skill"><img src="images/django-logo-negative.svg" alt="Django Logo" class="sub-skill-img"></span><span>Django</span></li>
+            <li class="sub-skill"><img src="images/React-icon.svg" alt="React Logo" class="sub-skill-img"><span>React</span></li>
+            <li class="sub-skill"><img src="images/Ruby_On_Rails_Logo.svg" alt="Ruby on Rails Icon" class="sub-skill-img"><span>Ruby on Rails</span></li>
+            <li class="sub-skill"><img src="images/Bootstrap_logo.svg" alt="Bootstrap Icon" class="sub-skill-img"><span>Bootstrap</span></li>
+          </ul>
+        </li>
+        <li>
+					<input type="checkbox" id="skills" class="menu-item-checkbox" />
+          <label for="skills" class="skill"><span>Skills</span><img src="./images/arrow.svg" alt="Click to open skills" class="arrow"></label>
+          <ul class="sub-skills">
+            <li class="sub-skill"><img src="images/js-icon.svg" alt="JavaScript Icon" class="sub-skill-img"></span><span>JavaScript</span></li>
+            <li class="sub-skill"><img src="images/html5-icon.svg" alt="HTML Icon" class="sub-skill-img"><span>HTML</span></li>
+            <li class="sub-skill"><img src="images/css-icon.svg" alt="CSS3 Icon" class="sub-skill-img"><span>CSS</span></li>
+          </ul>
+        </li>
       </ul> 
     </section>
-    <section class="contact-container info">
+    <section class="info contact-info scroll" id="contact">
       <h2 class="section-title">Contact me</h2>
-      <p class="description">I'm a software developer! I can help you build a product, 
-        feature or website Look through some of my work and experience! If you like what 
-        you see and have a project you need coded, don't hesitate to contact me.
-      </p>
-      <form action='' method='get' class='contact-form' id="contact-form-id">
-        <div class='form-section'>
-          <label for='title'></label>
-          <input id='title' name='title' type='text' placeholder="Lorem Ipsum" required/>
-        </div>
-        <div class='form-section'>
-          <label for='email'></label>
-          <input id='email' name='email' type='email' placeholder='loremipsum@example.com'required/>
-        </div>
-        <div class='form-section'>
-          <label for='descrip'></label>
-          <textarea id='descrip' name='descrip' placeholder="Write your message here..."></textarea>
-        </div>
-        <div class='form-section'>
-          <button type="submit" class="work-btn">Get in touch</button>
-        </div>
+      <p class="description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+        I'd love to help with it!</p>
+      <form action="https://formspree.io/f/xgebldzy" method="post" id="contact-form">
+        <ul class="contact-form-group">
+          <li class="form-section">
+            <label for="name">Name<span aria-label="Required">*</span></label>
+            <input type="text" id="name" maxlength="30" name="name" placeholder="Name" required>
+            <small></small>
+          </li>
+          <li class="form-section">
+            <label for="email">E-mail<span aria-label="Required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
+            <small></small>
+          </li>
+          <li class="form-section">
+            <label for="contact-descrip">Message<span aria-label="Required">*</span></label>
+            <textarea name="message" id="contact-descrip" maxlength="500" placeholder=" Write your message here..." required></textarea>
+            <small></small>
+            <p id="validation"></p>
+          </li>
+          <li class="form-section">
+            <button class="work-btn" type="submit">Get in touch</button>
+            <button class="work-btn" type="reset">Reset</button>
+          </li>
+        </ul>
       </form>
     </section>
-
   </section>
-
 </body>
 </html>

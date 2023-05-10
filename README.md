@@ -28,7 +28,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Portafolio] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
 **Portafolio Web App** is a project to showcare different works and information about the a person or group.
 
@@ -42,19 +42,23 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://www.w3.org/TR/2011/WD-html5-20110405/">HTML5</a></li>
-  </ul>
-  <ul>
     <li><a href="https://www.w3.org/Style/CSS/specs.en.html">CSS</a></li>
+    <li><a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/">JavaScript</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **Portafolio webpage**
-- **Mobile first**
-- **Responsiveness and flexibility**
+- **Portfolio webpage**
+- **Mobile first development**
+- **Responsiveness and flexibility for any screen size**
 - **Fast access to social media and other ways of contact**
 - **Easy to the eyes and cultivating at the same time**
+- **Form with backend support**
+- **Smooth scroll and continuous position refresh**
+- **Dinamic creation of content** 
+- **Form validation using JavaScript**
+- **Save information to local storage for re use**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -110,6 +114,10 @@ There are no test available for this project.
 
 To deploy this project, use any web hosting service.
 
+This project is deployed using [GitHub Pages](https://pages.github.com/). 
+
+Go to [🚀 Live Demo](#live-demo) to check it out.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
@@ -124,9 +132,7 @@ To deploy this project, use any web hosting service.
 ## 🔭 Future Features <a name="future-features"></a>
 
 Future chaves:
-- Add more detail to contact form
-- Improve responsiveness to bigger screen sizes
-- Add small CSS animations and interactivity.
+- None
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +146,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, I encourage you to clone, fork and contribute. Our community and knowledge grows with each engagement.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,3 +170,4 @@ This project is [MIT](./LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
