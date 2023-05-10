@@ -3,99 +3,55 @@ const btnSource = 'See source';
 
 const works = [
   {
-    name: 'Tonic',
-    cat: ['CANOPY', 'Back End Dev', 2015],
-    description:
-      `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
+    name: 'Portfolio App',
+    cat: ['Showcase', 'Full Stack Dev', 2023],
+    description: [
+      `Portafolio Web App a project to showcare different works and projects of a person or group.
+      Renders dinamically DOM and imports the data from a similated database. Mobile first solution`,
+      'Showcase your project and works; no accounts or sign-ups required.'],
     tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/Snapshoot-Portfolio.svg',
+    snapshot: './images/snapshot-portfolioApp.png',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
     connectionsURL: ['https://lordksix.github.io/portafolio-app/', 'https://github.com/lordksix/portafolio-app'],
   },
   {
-    name: 'Multi-Post Stories',
-    cat: ['FACEBOOK', 'Full Stack Dev', 2015],
-    description:
-    `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
+    name: 'Conference App',
+    cat: ['MOFA', 'Full Stack Dev', 2023],
+    description: [
+      `Conference Website App is a project to market, sell tickets and more about a hypotetical series of summits between ROC and Peru. It could be adapted for other topics. 
+      Dinamically render with a full working slider`,
+      'Lading page for different events, adaptable and flexible.'],
     tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/Snapshoot-multi.svg',
+    snapshot: './images/snapshot-confereceApp.png',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://lordksix.github.io/portafolio-app/', 'https://github.com/lordksix/portafolio-app'],
+    connectionsURL: ['https://lordksix.github.io/conference-template/', 'https://github.com/lordksix/conference-template'],
   },
   {
-    name: 'Facebook 360',
-    cat: ['FACEBOOk', 'Full Stack Dev', 2015],
-    description:
-    `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/topic-porta.svg',
+    name: 'Producer App',
+    cat: ['EPA TP', 'Full Stack Dev', 2023],
+    description: [
+      `Producer Web App is a project for a company that requires a company website where it can login to manage its data.
+      Show information about the company and, also to showcase its past, current and future projects, sell tickets, show availability in events, with more function to be added.`,
+      'Template solution for any small company that want to start having a internet presence.'],
+    tags: ['Django', 'Python', 'JavaScript'],
+    snapshot: './images/snapshot-producerApp.png',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://lordksix.github.io/portafolio-app/', 'https://github.com/lordksix/portafolio-app'],
+    connectionsURL: ['https://github.com/lordksix/producerApp', 'https://github.com/lordksix/producerApp'],
   },
   {
-    name: 'Uber Navigation',
-    cat: ['Uber', 'Lead Developer', 2018],
-    description:
-    `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
-    tags: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
-    snapshot: './images/mul-stories-porta.svg',
+    name: 'Minimalistic ToDo List',
+    cat: ['lordksix', 'Full Stack Dev', 2023],
+    description: [
+      'Minimalistic TodoList App is a lightweight, minimalistic TodoList App using ES6, ESM and webpack.',
+      'Minimalistic TodoList App is a lightweight, minimalistic TodoList App using ES6, ESM and webpack.'],
+    tags: ['Webpack', 'CSS', 'HTML', 'JavaScript'],
+    snapshot: './images/snapshot-toDoApp.png',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://lordksix.github.io/portafolio-app/', 'https://github.com/lordksix/portafolio-app'],
-  },
-];
-
-const works2 = [
-  {
-    name: 'Tonic',
-    cat: ['CANOPY', 'Back End Dev', 2015],
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/Snapshoot-Portfolio.svg',
-    connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
-    connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://lordksix.github.io/portafolio-app/', 'https://github.com/lordksix/portafolio-app'],
-  },
-  {
-    name: 'Multi-Post Stories',
-    cat: ['FACEBOOK', 'Full Stack Dev', 2015],
-    description:
-    'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/Snapshoot-multi.svg',
-    connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
-    connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://lordksix.github.io/portafolio-app/', 'https://github.com/lordksix/portafolio-app'],
-  },
-  {
-    name: 'Facebook 360',
-    cat: ['FACEBOOk', 'Full Stack Dev', 2015],
-    description:
-    'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/topic-porta.svg',
-    connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
-    connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://lordksix.github.io/portafolio-app/', 'https://github.com/lordksix/portafolio-app'],
-  },
-  {
-    name: 'Uber Navigation',
-    cat: ['Uber', 'Lead Developer', 2018],
-    description:
-    'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    tags: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
-    snapshot: './images/mul-stories-porta.svg',
-    connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
-    connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://lordksix.github.io/portafolio-app/', 'https://github.com/lordksix/portafolio-app'],
+    connectionsURL: ['https://lordksix.github.io/Minimalistic-ToDoList-App/', 'https://github.com/lordksix/Minimalistic-ToDoList-App'],
   },
 ];
 
@@ -148,7 +104,8 @@ function projectModal(e) {
 
   const workDescrip = document.createElement('p');
   workDescrip.classList.add('work-descrip');
-  workDescrip.textContent = workCardInf.description;
+  // eslint-disable-next-line prefer-destructuring
+  workDescrip.textContent = workCardInf.description[0];
   workCardBody.appendChild(workDescrip);
 
   docFragment.appendChild(workCardBody);
@@ -211,8 +168,8 @@ function renderworks() {
   workSection.classList.add('scroll', 'modal-bg');
   workSection.setAttribute('id', 'works');
 
-  for (let i = 0; i < works2.length; i += 1) {
-    const workCardInf = works2[i];
+  for (let i = 0; i < works.length; i += 1) {
+    const workCardInf = works[i];
     const projectCtn = document.createElement('li');
     projectCtn.classList.add('work');
 
@@ -243,7 +200,8 @@ function renderworks() {
 
     const workDescrip = document.createElement('p');
     workDescrip.classList.add('work-descrip');
-    workDescrip.textContent = workCardInf.description;
+    // eslint-disable-next-line prefer-destructuring
+    workDescrip.textContent = workCardInf.description[1];
     docFragment.appendChild(workDescrip);
 
     const workCardLangs = document.createElement('ul');
