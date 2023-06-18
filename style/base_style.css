@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+.logoimg {
+  height: 25px;
+}
+
 body {
   --top-nav: 25px;
 
@@ -745,6 +749,10 @@ header {
     line-height: 111%;
   }
 
+  .logoimg {
+    height: 40px;
+  }
+
   /* **** Work section **** */
 
   .work-title {
@@ -801,7 +809,7 @@ header {
     font-size: 40px;
     line-height: 130%;
     width: 87.2vw;
-    max-width: 400px;
+    max-width: 500px;
   }
 
   .description {
@@ -862,6 +870,10 @@ header {
 @media only screen and (min-width: 768px) {
   body {
     --top-nav: clamp(26px * 2 + max(18px, 1.25vw) * 1.11, (1440px - 100vw) * 1000, 1.801vw * 2 + max(18px, 1.25vw) * 1.11);
+  }
+
+  .logoimg {
+    height: 50px;
   }
 
   .menu li:hover {
