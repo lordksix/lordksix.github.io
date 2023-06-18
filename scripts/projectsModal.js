@@ -3,27 +3,27 @@ const btnSource = 'See source';
 
 const works = [
   {
-    name: 'Portfolio App',
+    name: 'Book Store App',
     cat: ['Showcase', 'Full Stack Dev', 2023],
     description: [
-      `Portafolio Web App a project to showcare different works and projects of a person or group.
-      Renders dinamically DOM and imports the data from a similated database. Mobile first solution`,
-      'Showcase your project and works; no accounts or sign-ups required.'],
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/snapshot-portfolioApp.png',
+      `Book Store App a project to showcase of React Redux. An app were you can add the book you are reading and show much
+      you have advanced reading it. Data use using microservices or APIs.`,
+      'Book Store App a project to showcase of React Redux. Store of books with added interactivity'],
+    tags: ['React', 'Rest API', 'JSX', 'Redux'],
+    snapshot: './images/snapshot-booklist.png',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
     connectionsURL: ['https://lordksix.github.io/portafolio-app/', 'https://github.com/lordksix/portafolio-app'],
   },
   {
-    name: 'Conference App',
-    cat: ['MOFA', 'Full Stack Dev', 2023],
+    name: 'Meal App',
+    cat: ['Showcase', 'Full Stack Dev', 2023],
     description: [
-      `Conference Website App is a project to market, sell tickets and more about a hypotetical series of summits between ROC and Peru. It could be adapted for other topics. 
-      Dinamically render with a full working slider`,
-      'Lading page for different events, adaptable and flexible.'],
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/snapshot-confereceApp.png',
+      `Meal App is a project to connect a REST API with your own App or Website, adding more interactivity. You can add comments, likes
+       and reservations. Dinamically render from a REST API. Completely modular. Ready to Plug 'n' Play.`,
+      'App that integrates different REST APIs to add user interactions to you data, no matter were it comes from.'],
+    tags: ['REST API', 'Webpack', 'JavaScript'],
+    snapshot: './images/snapshot-MealApp.png',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
     connectionsURL: ['https://lordksix.github.io/conference-template/', 'https://github.com/lordksix/conference-template'],
