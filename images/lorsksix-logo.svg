@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202.32 74.19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #070808;
+      }
+
+      .cls-2 {
+        fill: #f7941d;
+        font-family: InkFree, 'Ink Free';
+        font-size: 60px;
+        letter-spacing: .04em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-1" x=".77" y="2.68" width="200" height="60"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <text class="cls-2" transform="translate(0 54.51)"><tspan x="0" y="0">lordksix</tspan></text>
+  </g>
+</svg>
