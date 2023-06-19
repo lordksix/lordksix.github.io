@@ -13,7 +13,7 @@ const works = [
     snapshot: './images/snapshot-booklist.png',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://lordksix.github.io/portafolio-app/', 'https://github.com/lordksix/portafolio-app'],
+    connectionsURL: ['https://bookstore-react-redux-kappa.vercel.app/', 'https://github.com/lordksix/bookstore-react-redux'],
   },
   {
     name: 'Meal App',
@@ -26,7 +26,7 @@ const works = [
     snapshot: './images/snapshot-MealApp.png',
     connectionsBtn: ['./images/source-live-btn.svg', './images/source-github-btn.svg'],
     connectionstext: [btnLive, btnSource],
-    connectionsURL: ['https://lordksix.github.io/conference-template/', 'https://github.com/lordksix/conference-template'],
+    connectionsURL: ['https://lordksix.github.io/Meals-API-template/', 'https://github.com/lordksix/Meals-API-template'],
   },
   {
     name: 'Producer App',
